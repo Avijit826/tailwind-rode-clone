@@ -46,7 +46,8 @@
     <div class="hidden lg:block lg:h-[0.5px] bg-gray-300 w-full"></div>
 
     <!-- main header -->
-    <header class="text-gray-600 container mx-auto hidden lg:flex py-8 items-center">
+    <div class="bg-white sticky top-0 z-20">
+    <header class="text-gray-600 container mx-auto hidden bg-white lg:flex py-8 items-center">
           <a><img class="ml-3 text-xl h-6" src="./images/logo-main.svg"/>
           </a>
           <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
@@ -59,9 +60,10 @@
           <a><img class="ml-3 text-xl h-7" src="./images/search.svg"/>
           </a>
       </header>
+    </div>
 
     <!-- mobile header -->
-    <div class="flex lg:hidden mx-auto items-center justify-between p-2 text-gray-500 bg-[#f9f9f9]">
+    <div class="flex lg:hidden mx-auto items-center justify-between p-2 text-gray-500 sticky top-0 z-20 bg-[#f9f9f9]">
     <div class="flex items-center">
         <i class="pr-3 fa-solid fa-bars"></i>
         <img src="./images/location.svg" alt="" srcset="" />
